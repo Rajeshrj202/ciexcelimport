@@ -104,7 +104,7 @@ class InstallationDetailController extends BaseController
 
         endif;
 
-        $this->session->setFlashdata('success','Excel Imported Successfully');
+        session()->setFlashdata('success','Excel Imported Successfully');
         return redirect()->route('dashboard');
     }
 
