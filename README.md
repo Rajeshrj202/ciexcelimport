@@ -9,7 +9,7 @@
   
     https://github.com/Rajeshrj202/ciexcelimport/blob/main/ci_database.sql
 
-> After successfull clone Run
+> After successfull clone Run below command in project root folder
 
     composer update
     php spark serve 
