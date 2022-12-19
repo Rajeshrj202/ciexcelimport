@@ -7,7 +7,7 @@
 
 > use Database File from below link to setup environment details
   
-   https://github.com/Rajeshrj202/ciexcelimport/blob/main/ci_database.sql
+    https://github.com/Rajeshrj202/ciexcelimport/blob/main/ci_database.sql
 
 
 
