@@ -9,6 +9,11 @@
   
     https://github.com/Rajeshrj202/ciexcelimport/blob/main/ci_database.sql
 
+> After successfull clone Run
+
+    composer update
+    php spark serve 
+
 
 
 ScreenShots:
