@@ -1,5 +1,5 @@
 
-> Please Follow below steps
+> Please Follow below steps to setup
 
 > CLone the Project form below link
 
