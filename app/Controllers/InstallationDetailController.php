@@ -148,9 +148,6 @@ class InstallationDetailController extends BaseController
          $order_arr = $this->request->getVar('order');
          $search_arr = $this->request->getVar('search');
 
-
-
-
          $columnIndex = $columnIndex_arr[0]['column']; // Column index
          $columnName = $columnName_arr[$columnIndex]['data']; // Column name
          $columnSortOrder = $order_arr[0]['dir']; // asc or desc
@@ -162,7 +159,7 @@ class InstallationDetailController extends BaseController
         $response = array(
             "draw" => intval($draw),
             "iTotalRecords" => $totalRecords,
-            "iTotalDisplayRecords" => count($records),
+            "iTotalDisplayRecords" => $totalRecords,
             "aaData" => $records
         );
 

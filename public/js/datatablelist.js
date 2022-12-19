@@ -9,26 +9,18 @@
          processing: true,
          serverSide: true,
          paging:true,
-         'columnDefs': [
-               {
-                 'targets': 1,
-                 'createdCell':  function (td, cellData, rowData, row, col) {
-                    $(td).attr('data-sort',getTimeStamp(cellData)); 
-              }
-
-           }],
-
-             buttons: [
+         
+         buttons: [
                 {
                 extend: 'copy'
                 },
                 {
                 extend: 'csv',footer:true,
-                title:"Call Batches - Report Details",
+                title:"InstallationDetails",
                 },
                 {
                 extend: 'excel',footer:true,
-                title:"Call Batches - Report Details",
+                title:"InstallationDetails"
                 }
             ],
          ajax: BASEURL+"/ajax/get-installation-list",
