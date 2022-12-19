@@ -14,7 +14,7 @@
                </a>
              </li>
              <li class="breadcrumb-item active" aria-current="page">
-               @yield('title')
+              
              </li>
            </ol>
          </nav>
