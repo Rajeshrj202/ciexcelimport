@@ -31,7 +31,6 @@ class InstallationDetailController extends BaseController
     public function view($id)
     {
         $data['installationdetails']=$this->InstallationDetailModel->where('unique_id',$id)->first();
-        
         return view('detail',$data);
     }
 

@@ -22,7 +22,7 @@
 
       <div class="col-md-6 mt-4">
         <button class="btn btn-gray-800 mt-2 animate-up-2"  type="submit">Upload</button>
-        <a class="btn btn-gray-800 mt-2 animate-up-2" href="https://exportexcel.rajesh.fun/public/RouterDetails.xlsx"  type="button">Sample Excel Download</a>
+        <a class="btn btn-gray-800 mt-2 animate-up-2" href="https://github.com/Rajeshrj202/ciexcelimport/blob/main/CodeIgniterTask-Import-XLSX.xlsx"  type="button">Sample Excel Download</a>
         <a class="btn btn-gray-800 mt-2 animate-up-2" href="<?=route_to('dashboard').'?download=true';?>"  type="button">Zip Download</a>
       </div>
      
